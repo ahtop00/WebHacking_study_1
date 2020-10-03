@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Form Example</title>
+</head>
+<body>
+  <p><h4><a href = "HTML.html">-> Back to HTML </a></h4></p>
+<form action="https://localhost/login.php">
+  <p>아이디: <input type="text" name="id"></p>
+  <p>패스워드: <input type="password" name="pw"></p>
+  <input type="submit" value ="전송">
+  <input type="button" value ="버튼1" onclick="alert('hello user!')">
+  <input type="button" value ="버튼2" ondblclick="alert('lol user!')">
+  <input type="reset">
+</form>
+  <p><br><h1>다른 텍스트 폼 :)</h1></p>
+<form action="">
+  <p>아이디 : <input type="text" name="id" value="아이디 입력"</p>
+  <p>패스워드 : <input type="password" name="pw"</p>
+  <p>textarea :
+    <textarea name="text" rows="2" cols="30"></textarea>
+  </p>
+</form>
+
+  <p><br><h1>선택지 폼</h1></p>
+<form action="https://localhost/color.php"
+  <p><h3>색상 선택</h3></p>
+  <select name="color">
+    <option value="red">붉은색</option>
+    <option value="black">검은색</option>
+    <option value="blue">파란색</option>
+    <option value="white">흰색</option>
+  </select>
+  <h3>색상2 (다중선택)</h3>
+  <select name="color2" multiple>
+    <option value="red">붉은색</option>
+    <option value="black">검은색</option>
+    <option value="blue">파란색</option>
+    <option value="white">흰색</option>
+  </select>
+  <input type="submit">
+  </form>
+
+  <form action="http://localhost/color.php"
+    <p><br><h2>그래픽 카드 선택 </h2></p>
+    <p>
+      <h3>제조사 (체크박스 단일 선택)</h3>
+      갤럭시 : <input type="radio" name="manufacturer" value="GALAXY" checked>
+      조텍 : <input type="radio" name="manufacturer" value="ZOTAC">
+      에이수스 : <input type="radio" name="manufacturer" value="ASUS">
+      기가바이트 : <input type="radio" name="manufacturer" value="GIGABYTE">
+      기타 : <input type="radio" name="manufacturer" value="ETC">
+    </p>
+    <p>
+      <h3>시리즈 (체크박스 중복 선택)</h3>
+      1060 : <input type="checkbox" name="series" value="1060">
+      1080 : <input type="checkbox" name="series" value="1080">
+      2060 : <input type="checkbox" name="series" value="2060">
+      2080 : <input type="checkbox" name="series" value="2080">
+      3080 : <input type="checkbox" name="series" value="3080">
+    </p>
+    <input type="submit">
+  </form>
+
+  <p><br><h1><a href="form_hidden.html">Form_Hidden</a></h1></p>
+  <p>데이터를 전송할때 UI없이 전송하고 싶을 때 hidden을 쓴다</p>
+  <p><br><h1><a href="form_label.html">Form_Label & Method & File Upload</a></h1></p>
+  <p>라벨을 이용하여 그룹을 만든다 // 데이터를 보내는 방식을 Method를 이용해서 구분한다 // 파일을 업로드 방식을 배운다.</p>
+</body>
+</html>
